@@ -16,7 +16,7 @@ extern uint16_t nPrinterType;
 extern PGM_P sPrinterName;
 
 // Firmware version
-#define FW_VERSION "3.9.0"
+#define FW_VERSION "3.9.0-ANT"
 #define FW_COMMIT_NR 3421
 // FW_VERSION_UNKNOWN means this is an unofficial build.
 // The firmware should only be checked into github with this symbol.

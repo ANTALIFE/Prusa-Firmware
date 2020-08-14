@@ -1470,7 +1470,7 @@ static bool can_load()
             DEBUG_PUTCHAR('o');
         }
     }
-    if (filament_detected_count > steps - 4)
+    if (filament_detected_count > steps - 25) //ANTALIFE, was -4 now -25 to help with filament dia irregularity
     {
         DEBUG_PUTS_P(PSTR(" succeeded."));
         return true;
